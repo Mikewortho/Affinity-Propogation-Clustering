@@ -9,7 +9,6 @@ import sklearn.cluster
 from nltk.corpus import stopwords
 import nltk
 nltk.download('stopwords')
-#import distance
  
 def LD(s, t):
     if s == "":
