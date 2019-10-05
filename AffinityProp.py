@@ -39,4 +39,3 @@ for cluster_id in np.unique(affprop.labels_):
     cluster = np.unique(words[np.nonzero(affprop.labels_==cluster_id)])
     cluster_str = ", ".join(cluster)
     print(" - *%s:* %s" % (exemplar, cluster_str))
-   
